@@ -6,9 +6,14 @@ public class Player : MonoBehaviour
 {
     public static Player Instance;
     public PlayerController controller;
-    public bool canMove = true;
+    public bool canMove = false;
     private void Awake()
     {
         Instance = this;
+        canMove = false;
+    }
+    public void SetPlayerMoveState(bool state)
+    {
+        canMove = state;
     }
 }
