@@ -33,6 +33,7 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
         {
             if (rb.velocity.magnitude < 0.05f)
                 rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
             rb.velocity = (follow.position - transform.position) * 15;
             transform.rotation = Quaternion.Slerp(transform.rotation, follow.rotation, Time.fixedDeltaTime * 15);
         }
