@@ -1,0 +1,321 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalN' Language: 'en' Physical Memory: 32672 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/jackd/Desktop/unity projects/ElonGame/ElonGame/Elon-Musk-Rocket-Builder/Elon Musk Rocket Builder
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51670
+Successfully changed project path to: C:/Users/jackd/Desktop/unity projects/ElonGame/ElonGame/Elon-Musk-Rocket-Builder/Elon Musk Rocket Builder
+C:/Users/jackd/Desktop/unity projects/ElonGame/ElonGame/Elon-Musk-Rocket-Builder/Elon Musk Rocket Builder
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 121.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jackd/Desktop/unity projects/ElonGame/ElonGame/Elon-Musk-Rocket-Builder/Elon Musk Rocket Builder/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011122 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 115.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Domain Reload Profiling:
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (501ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009353 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackd\Desktop\unity projects\ElonGame\ElonGame\Elon-Musk-Rocket-Builder\Elon Musk Rocket Builder\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackd\Desktop\unity projects\ElonGame\ElonGame\Elon-Musk-Rocket-Builder\Elon Musk Rocket Builder\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 115.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1398ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1154ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5571 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.8 MB). Loaded Objects now: 6023.
+Memory consumption went from 220.8 MB to 219.9 MB.
+Total: 4.488200 ms (FindLiveObjects: 0.548300 ms CreateObjectMapping: 0.177500 ms MarkObjects: 3.192600 ms  DeleteObjects: 0.568500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010266 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackd\Desktop\unity projects\ElonGame\ElonGame\Elon-Musk-Rocket-Builder\Elon Musk Rocket Builder\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackd\Desktop\unity projects\ElonGame\ElonGame\Elon-Musk-Rocket-Builder\Elon Musk Rocket Builder\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1030ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5429 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.8 MB). Loaded Objects now: 6038.
+Memory consumption went from 210.2 MB to 209.5 MB.
+Total: 5.555200 ms (FindLiveObjects: 0.920800 ms CreateObjectMapping: 0.190100 ms MarkObjects: 3.493400 ms  DeleteObjects: 0.949200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 680359.591072 seconds.
+  path: Assets/Art/Models/Door.fbx
+  artifactKey: Guid(b6f09d8ae2ca6a74aa8aef286ea3d180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Door.fbx using Guid(b6f09d8ae2ca6a74aa8aef286ea3d180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78c88b54b57e4ec765b4fbccb2184de') in 1.718425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.980901 seconds.
+  path: Assets/Art/Models/Box.fbx
+  artifactKey: Guid(6fb286ae07b422b4381c983d1e8c6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Box.fbx using Guid(6fb286ae07b422b4381c983d1e8c6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad96dbb9d50359543e252b9b061fdb03') in 0.073531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Models/Snack_open.fbx
+  artifactKey: Guid(e96d14547299eb24580f3cfac395f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Snack_open.fbx using Guid(e96d14547299eb24580f3cfac395f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b8d140919fe81dc9c95c61ce031211') in 0.032770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Models/Vent.fbx
+  artifactKey: Guid(e72cffb8243b0254b85d90c17a60f4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Vent.fbx using Guid(e72cffb8243b0254b85d90c17a60f4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae9b8355b26e0bb0a556771ff8d5ecf') in 0.056555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Models/Can.fbx
+  artifactKey: Guid(ad0b65896f3d7ad4a9e0a38eedcf4244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Can.fbx using Guid(ad0b65896f3d7ad4a9e0a38eedcf4244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9ff4c97667bd0c997edb1b36c8dd6e') in 0.033722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Art/Models/Snack_closed.fbx
+  artifactKey: Guid(1f4f5c04d2446f749bb4d69786926582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Snack_closed.fbx using Guid(1f4f5c04d2446f749bb4d69786926582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502e14158c427b1eb3985bcbcfc01057') in 0.032717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Models/BoxStack.fbx
+  artifactKey: Guid(57fbe6fdd2ad2ec4cab30c7cd8486b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/BoxStack.fbx using Guid(57fbe6fdd2ad2ec4cab30c7cd8486b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeffabb97bb56fbc41951eb86621b03') in 0.032186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.541280 seconds.
+  path: Assets/Art/Textures/ChunkyTilesNormal_2.png
+  artifactKey: Guid(e3717e5009e808341acf486530c30f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/ChunkyTilesNormal_2.png using Guid(e3717e5009e808341acf486530c30f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd012aec3e3966fe9aa1ef106960b1491') in 0.045401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Textures/ElonMuskRocketBuilderFloorTiles.png
+  artifactKey: Guid(dfef8c5d0b753df49ab411b225b02f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/ElonMuskRocketBuilderFloorTiles.png using Guid(dfef8c5d0b753df49ab411b225b02f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6331ea81dc28448991e0a573816ccbb6') in 0.018528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/Textures/ElonMuskRocketBuilderTiles.png
+  artifactKey: Guid(12258ad0d5e8654438e22e8e54d1c8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/ElonMuskRocketBuilderTiles.png using Guid(12258ad0d5e8654438e22e8e54d1c8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc88b9d335efe48c8cc6a033d610514') in 0.016459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Textures/ColorPallete.png
+  artifactKey: Guid(dd18e488d40b6174299f5e473e7de3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/ColorPallete.png using Guid(dd18e488d40b6174299f5e473e7de3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a6512e8df10f23a6e8b6b7320befc8') in 0.014974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.745177 seconds.
+  path: Assets/Art/Textures/AmazonBox_Roughness.png
+  artifactKey: Guid(b9d46a7654a9999488f35632c90d92ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/AmazonBox_Roughness.png using Guid(b9d46a7654a9999488f35632c90d92ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6f5ba7e042907e2454b4c3bb580ece') in 0.018015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.775383 seconds.
+  path: Assets/Art/Models/BoxOpen.fbx
+  artifactKey: Guid(7d0a38ce5f0e9d44a8302171328ddea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/BoxOpen.fbx using Guid(7d0a38ce5f0e9d44a8302171328ddea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dbee61d7c9225362ad2a01aa770893') in 0.043113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Models/Snack_open.fbx
+  artifactKey: Guid(e96d14547299eb24580f3cfac395f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Snack_open.fbx using Guid(e96d14547299eb24580f3cfac395f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa137a4a4203de05c03928b1eb60b40') in 0.031301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Models/Can_crunched.fbx
+  artifactKey: Guid(6f9c641ce39e27646b1ac53205887fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Can_crunched.fbx using Guid(6f9c641ce39e27646b1ac53205887fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e47e0ff287d62527351101a1eec97') in 0.036114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Models/VendingMachine.fbx
+  artifactKey: Guid(486cf8692dc02a94198c281b4cb59130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/VendingMachine.fbx using Guid(486cf8692dc02a94198c281b4cb59130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5318dd68ba68bfc65259324b77676f') in 0.093703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Models/Can.fbx
+  artifactKey: Guid(ad0b65896f3d7ad4a9e0a38eedcf4244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Can.fbx using Guid(ad0b65896f3d7ad4a9e0a38eedcf4244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243c8c06f2d1b34e8d5b6b37d1626d61') in 0.041876 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
